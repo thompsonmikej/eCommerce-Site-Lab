@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+main {
+    font-family: 'Segoe UI', sans-serif;
+}
+h1, h2, h3, h4 {
+    text-transform: uppercase;
+}
+
+nav{}
+
+.black-background {
+    background: color #000;
+    color: white;
+}
+.gray-background {
+    background: color #707070;
+    color: white;
+}
+.orange-background {
+    background: color #BF7631;
+    color: white;
+}
+.icon {
+    width:3em;
+    height:3em;
+}
+
+.flex-container{}
