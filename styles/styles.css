@@ -10,48 +10,62 @@ html {
     box-sizing: border-box;
     font-size: 62.5%;
 }
-
 hr {
-    color:#000;
+    height:3px;
+    width:55%;
+    background-color: #000;
+    border:none;
+    margin: 2em 2em 2em 0;
+}
+banner img {
+    height: 100vh;
+    width: auto;
 }
 
+main img {
+    height:20em;
+    width:20em;    
+}
 main {
     font-family: 'Segoe UI', sans-serif;
 }
 h1, h2, h3, h4, button {
     text-transform: uppercase;
 }
+h2 {
+    font-size: 2em;
+}
+nav hr {
+    width:100%;
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+}
+/* Add a black background color to the top navigation */
+.topnav {
     overflow: hidden;
-    background-color: #c32f27;
-    position: fixed;
-    width: 100%;
 }
 
-nav li {
+/* Style the links inside the navigation bar */
+.topnav a {
     float: left;
-}
-
-nav li a {
-    display: block;
-    color: white;
+    color: #707070;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    font-size: 17px;
 }
 
-nav li a:hover:not(.active) {
-    background-color: #780116;
-    font-weight: bold;
+/* Change the color of links on hover */
+.topnav a:hover {
+    background: color #BF7631;
+    color: white;
 }
 
-nav .active {
-    background-color: #04AA6D;
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #000;
+    color: white;
 }
+
 /* classes below */
 .black-background {
     background: color #000;
@@ -65,7 +79,7 @@ nav .active {
 .white-text{
     color: white;
 }
-.inverse-icon {
+.icon-size {
     width:3em;
     height:3em;
 }
@@ -100,8 +114,8 @@ nav .active {
     order: 99;
 }
 .image-background-fill-space {
-        width: 100%;
-        height: 100%;
+    width: 100%;
+    height: 100%;
 }
 .product {}
 .item {}
