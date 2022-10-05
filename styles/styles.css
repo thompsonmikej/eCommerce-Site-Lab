@@ -112,3 +112,7 @@ nav .active {
 
 #contact{ 
 }
+
+.flip-horizontally {
+    transform: scaleX(-1);
+}
