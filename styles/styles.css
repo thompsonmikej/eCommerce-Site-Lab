@@ -18,7 +18,7 @@ hr {
 main {
     font-family: 'Segoe UI', sans-serif;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, button {
     text-transform: uppercase;
 }
 
@@ -81,14 +81,13 @@ nav .active {
     align-items: left;
     justify-content: space-evenly;
 }
-.flex-container-outer-1 {
-    order: -1;
-}
-
 .flex-container-inner {
     flex-direction: column;
 }
 
+.flex-container-outer-1 {
+    order: -1;
+}
 .flex-container-inner-upper {
     order: 0;
 }
