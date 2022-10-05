@@ -59,7 +59,7 @@ nav .active {
 .gray-background {
     background: color #707070;
 }
-.orange-background {
+.orange-background, .learn-more-link {
     background: color #BF7631;
 }
 .white-text{
