@@ -23,9 +23,9 @@
                     <a href="#about">About</a>
                 </li>
 
-            <span class="cara-font">CARA</span>
+            <span class="bold-font">CARA</span>
             <span><img src="images\icons8-pottery-96.png" class="icon-size-smaller"></span>
-            <span class="cara-font">CARA</span>
+            <span class="bold-font">CARA</span>
                 <li>
                     <a href="#products">Our Products</a>
                 </li>
@@ -35,7 +35,7 @@
             </ul>
 
             <input type="">
-            <img src="images\1200px-Google_Magnifying_Glass.svg.png" alt="" class="">
+            <img src="images\1200px-Google_Magnifying_Glass.svg.png" alt="" class="icon-size-smaller">
             <span class="price-float">
                 Cart (0)
             </span>
@@ -87,7 +87,7 @@
         <h2 id="products">Our Products</h2><hr>
             <div class="flex-container">
                 <div class="flex-container-row">
-                        <div class="item">
+                        <div class="item"> 
                             <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                                 <h3 class="product">MUNDO BOWLS $48.00</h3>
                                 <hr>
@@ -100,13 +100,17 @@
                                     qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                                 </p>
                         
-                                <a href="#" class="learn-more-link">Learn More</a>
-                            <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                            <script>
-                                function home() { alert("Item added to Cart."); }
-                            </script>
-
+                        
+                               <div class="flex-container"><!--*this line*-->
+                                    <a href="#" class="learn-more-link">Learn More</a>
+                                    <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to Cart</button>
+                                    <script>
+                                        function home() { alert("Item added to Cart."); }
+                                    </script>
+                                </div>
+                            </div>
                         </div>
+
                         <div class="item">
                             <a href="#"><img src="images\oriento-maVIpNNtmlQ-unsplash.jpg" alt="item" class="item-image"></a>
                                 <h3 class="product">NATUREZA VASE $37.00</h3>
@@ -124,11 +128,15 @@
                                     mollitia animi, id est laborum et dolorum fuga.
                                 </p>
                         
-                                <a href="#" class="learn-more-link">Learn More</a>
-                                <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                                <script>
-                                    function home() { alert("Item added to Cart."); }
-                                </script>
+                        <div class="flex-container">
+                            <!--*this line*-->
+                            <a href="#" class="learn-more-link">Learn More</a>
+                            <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                Cart</button>
+                            <script>
+                                function home() { alert("Item added to Cart."); }
+                            </script>
+                        </div>
 
                             </div>
                         <div class="item">      
@@ -148,11 +156,14 @@
                                     mollitia animi, id est laborum et dolorum fuga.
                                 </p>
                         
-                                <a href="#" class="learn-more-link">Learn More</a>
-                            <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                            <script>
-                                function home() { alert("Item added to Cart."); }
-                            </script>
+                            <div class="flex-container">
+                                 <a href="#" class="learn-more-link">Learn More</a>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
+                                <script>
+                                    function home() { alert("Item added to Cart."); }
+                                </script>
+                            </div>
 
                             </div>
                         </div>
@@ -174,11 +185,14 @@
                                     qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                                 </p>
                         
+                            <div class="flex-container">
                                 <a href="#" class="learn-more-link">Learn More</a>
-                        <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                        <script>
-                            function home() { alert("Item added to Cart."); }
-                        </script>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
+                                <script>
+                                    function home() { alert("Item added to Cart."); }
+                                </script>
+                            </div>
 
                         </div>
                         <div class="item">
@@ -198,11 +212,14 @@
                                     mollitia animi, id est laborum et dolorum fuga.
                                 </p>
                     
+                            <div class="flex-container">
                                 <a href="#" class="learn-more-link">Learn More</a>
-                        <button class="orange-background white-text box-container" onclick="cart()">Add to Cart</button>
-                        <script>
-                            function cart() { alert("Item added to Cart."); }
-                        </script>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
+                                <script>
+                                    function home() { alert("Item added to Cart."); }
+                                </script>
+                            </div>
 
                         </div>
                         <div class="item">
@@ -222,12 +239,14 @@
                                     mollitia animi, id est laborum et dolorum fuga.
                                 </p>
                         
+                            <div class="flex-container">
                                 <a href="#" class="learn-more-link">Learn More</a>
-
-                                <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
                                 <script>
                                     function home() { alert("Item added to Cart."); }
                                 </script>
+                            </div>
 
                             </div>
                         </div>
@@ -243,12 +262,14 @@
                             Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur, vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? At vero eos et accusamus et iusto odio dignissimos ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint, obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et dolorum fuga.
                         </p>
                         
-                        <a href="#" class="learn-more-link">Learn More</a>
-
-                        <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                        <script>
-                            function home() { alert("Item added to Cart."); }
-                        </script>
+                            <div class="flex-container">
+                                <a href="#" class="learn-more-link">Learn More</a>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
+                                <script>
+                                    function home() { alert("Item added to Cart."); }
+                                </script>
+                            </div>
                     </div>
                     <div class="item">
                         <a href="#"><img src="images\oriento-l0ah3UBLppo-unsplash.jpg" alt="item" class="item-image"></a>
@@ -263,11 +284,14 @@
                             mollitia animi, id est laborum et dolorum fuga.
                         </p>
                     
-                        <a href="#" class="learn-more-link">Learn More</a>
-                        <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                        <script>
-                            function home() { alert("Item added to Cart."); }
-                        </script>
+                            <div class="flex-container">
+                                <a href="#" class="learn-more-link">Learn More</a>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
+                                <script>
+                                    function home() { alert("Item added to Cart."); }
+                                </script>
+                            </div>
 
                     </div>
                     <div class="item">
@@ -285,10 +309,14 @@
                     
                         <a href="#" class="learn-more-link">Learn More</a>
 
-                        <button class="orange-background white-text box-container" onclick="home()">Add to Cart</button>
-                        <script>
-                            function home() { alert("Item added to Cart."); }
-                        </script>
+                            <div class="flex-container">
+                                <a href="#" class="learn-more-link">Learn More</a>
+                                <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to
+                                    Cart</button>
+                                <script>
+                                    function home() { alert("Item added to Cart."); }
+                                </script>
+                            </div>
 
                     </div>
                 </div>
