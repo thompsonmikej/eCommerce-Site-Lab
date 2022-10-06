@@ -9,7 +9,7 @@
         <meta name="keywords" content="CaraCara eCommerce pottery">
         <meta name="description" content="eCommerce Site">
         <title>Cara Cara E-Commerce Site</title>
-        <a href="#main">Skip to Main</a>
+        <a href="#about" class="skip-link">Skip to About</a>
     </head>
     <body>
         <span id="home"></span>
@@ -32,7 +32,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="inner-flex-container">
+                <div class="flex-container-inner">
                     <div>
                         <span class="bold-font">CARA</span>
                         <span><img src="images\icons8-pottery-96.png" class="icon-size-smaller"></span>
@@ -42,14 +42,24 @@
                 <div class="flex-container-outer-2">
                 <div class="search-container">
                     <div>
-                        <input type="text" placeholder="Search.." name="search">
-                            <button type="submit" class="no-border">                
+                        <input type="text" placeholder="Search.." class="input-search" name="search">
+                            <button type="submit" class="no-border" onclick="search()">                
                                 <span><img src="images\1200px-Google_Magnifying_Glass.svg.png" alt="" class="icon-size-smaller"></span>
                             </button>
-                            <button type="submit" class="price-float no-border">
-                                <p>Cart (0)</p>
-                             </button>
-                        
+                                <!-- <script>
+                                    function search() { alert("Your search for ... yielded 123 results."); }
+                                </script>
+                            <button class="price-float no-border" onclick="viewCart()">Cart (0)</button>
+                                <script>
+                                    function viewCart() { alert("Your search for ... yielded 123 results."); }
+                                </script> -->
+
+                            <button class="orange-background b-text box-container" onclick="home()">Add
+                                to Cart</button>
+                            <script>
+                                function home() { alert("Item added to Cart."); }
+                            </script>
+
                     </div>
                     </span>
                 </div>  
@@ -81,7 +91,7 @@
                     <div class="flex-container-outer-1">
                         <img src="images\Vase_Dame_2048x2048.jpg" alt="item" class="">
                     </div>
-                        <div class="inner-flex-container">
+                        <div class="flex-container-inner">
                             <div class="flex-container-inner-1">
                                 <p>
                                     Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
@@ -184,7 +194,7 @@
             
     
             <h2 id="contact">Contact Us</h2><hr>
-                <div class="inner-flex-container input uppercase-letters">
+                <div class="flex-container input uppercase-letters">
                     <div class="flex-container-inner-1 ">
                         <form>
                             <label for="email">email</label><br>
@@ -198,16 +208,17 @@
                         </form>
                     </div>
                 </div>
- 
             
         </main>
         <footer class="orange-background">
             <div class="flex-container">
                 <div class="flex-container-outer-1 icon-size">            
                     <span><a href="https://www.youtube.com"><img src="images\icons8-youtube-96.png" class="inverse-icon icon-size" alt="YouTube"></a></span>
+                </div>
+                <div class="flex-container-outer-1 icon-size">
                     <span><a href="https://www.facebook.com"><img src="images\icons8-facebook-96 (1).png" class="inverse-icon icon-size" alt="Facebook"></a></span>
                 </div>
-                <div class="inner-flex-container">
+                <div class="flex-container-inner">
                     <div>
                         <span class="bold-font">CARA</span>
                         <span><img src="images\icons8-pottery-96 (1).png" class="icon-size-smaller"></span>
@@ -216,9 +227,12 @@
                 </div>
                 <div class="flex-container-outer-2">
                     <span><a href="https://www.twitter.com"><img src="images\icons8-twitter-96.png" class="inverse-icon icon-size" alt="Twitter"></a></span>
+                </div>
+                <div class="flex-container-outer-1 icon-size">
                     <span><a href="https://www.instagram.com"><img src="images\icons8-instagram-96.png" class="inverse-icon icon-size" alt="Instagram"></a></span>
                 </div>
             </div>
+            <p>Exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.</p>
         </footer>
     </body>
 </html>

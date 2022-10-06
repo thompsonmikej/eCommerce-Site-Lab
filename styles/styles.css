@@ -9,6 +9,13 @@ input{
     width: 25em;
     margin-bottom: 1em;
 }
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #000;
+}
+.input-search {
+    width:12em;
+}
 
 .input-email {
     height: 2em;
@@ -40,7 +47,8 @@ main img {
     width:20em;    
 }
 main {
-    font-family: 'Segoe UI', sans-serif;
+    margin-left: 10em;
+    margin-right:10em;
 }
 h1, h2, h3, h4, button, .learn-more-link, .uppercase-letters {
     text-transform: uppercase;
@@ -55,13 +63,18 @@ nav hr {
 /* Add a black background color to the top navigation */
 .topnav {
     overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    /* float: left; */
-    color: #000;
-    /* text-align: center; */
+    float: left;
+    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     /* font-size: 17px; */
@@ -69,7 +82,7 @@ nav hr {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-    background: color #BF7631;
+    background-color:#BF7631;
     color: white;
 } */
 
@@ -158,7 +171,7 @@ nav hr {
 .item {}
 
 .item-image{
-    border: 1em solid;
+    border: .25em solid black;
 }
 
 #contact{ 
@@ -187,4 +200,8 @@ nav hr {
     bottom: 4em;
     right: 2em;
     font-size: 2em;
+}
+.skip-link{
+    color: white;
+
 }
