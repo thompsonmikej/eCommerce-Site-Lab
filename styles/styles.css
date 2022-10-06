@@ -83,6 +83,13 @@ nav hr {
     width:3em;
     height:3em;
 }
+.icon-size-smaller {
+    width: 1.5em;
+    height: 1.5em;
+}
+.cara-font {
+    font-weight: bold;
+}
 .price-float{
     float:right;
 }
