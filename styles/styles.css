@@ -5,7 +5,17 @@
     padding: 0;
     box-sizing: inherit;
 }
+input{
+    width: 25em;
+    margin-bottom: 1em;
+}
 
+.input-email {
+    height: 2em;
+}
+.input-message {
+    height: 10em;
+}
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -15,7 +25,7 @@ hr {
     width:55%;
     background-color: #000;
     border:none;
-    margin-top:2em;
+    margin-top:1em;
     margin-bottom:2em;
 }
 .banner-img {
@@ -37,6 +47,7 @@ h1, h2, h3, h4, button, .learn-more-link, .uppercase-letters {
 }
 h2 {
     font-size: 2em;
+    margin-top:2em;
 }
 nav hr {
     width:100%;
@@ -48,19 +59,19 @@ nav hr {
 
 /* Style the links inside the navigation bar */
 .topnav a {
-    float: left;
-    color: #707070;
-    text-align: center;
+    /* float: left; */
+    color: #000;
+    /* text-align: center; */
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    /* font-size: 17px; */
 }
 
 /* Change the color of links on hover */
 .topnav a:hover {
     background: color #BF7631;
     color: white;
-}
+} */
 
 /* Add a color to the active/current link */
 .topnav a.active {
@@ -101,7 +112,6 @@ nav hr {
 .box-container {
     width:3em;
     height:3em;
-   
 }
 .cart-font{
     font-size: 1em;
@@ -146,6 +156,7 @@ nav hr {
     margin-bottom: -.5em;
 }
 .item {}
+
 .item-image{
     border: 1em solid;
 }
@@ -155,4 +166,25 @@ nav hr {
 
 .flip-horizontally {
     transform: scaleX(-1);
+}
+.no-border{
+    border: none;
+}
+.container {
+    position: relative;
+    /* text-align: center; */
+    /* color: white; */
+}
+.upper-left {
+    position: absolute;
+    top: 4em;
+    left: 1.5em;
+    font-size: 2em;
+}
+
+.lower-right {
+    position: absolute;
+    bottom: 4em;
+    right: 2em;
+    font-size: 2em;
 }
