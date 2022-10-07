@@ -15,7 +15,7 @@
         <span id="home"></span>
      
         <nav>
-            <div class="flex-container flex-grid flex-space-evenly">
+            <div class="flex-container  flex-space-evenly">
                 <div class="flex-container-outer-1 topnav">
                     <ul class="topnav">
                         <li>
@@ -32,12 +32,10 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex-container-inner">
-                    <div>
-                        <span class="bold-font">CARA</span>
-                        <span><img src="images\icons8-pottery-96.png" class="icon-size-smaller"></span>
-                        <span class="bold-font">CARA</span>
-                    </div>
+                <div class="flex-container-inner position-absolute">
+                    <span class="bold-font">CARA</span>
+                    <span><img src="images\icons8-pottery-96.png" class="icon-size-smaller "></span>
+                    <span class="bold-font">CARA</span>
                 </div>
                 <div class="flex-container-outer-2">
                 <div class="search-container">
@@ -54,11 +52,11 @@
                                     function viewCart() { alert("Your search for ... yielded 123 results."); }
                                 </script> -->
 
-                            <button class="orange-background b-text box-container" onclick="home()">Add
+                            <!-- <button class="orange-background b-text box-container" onclick="home()">Add
                                 to Cart</button>
-                            <script>
+                            <!-- <script>
                                 function home() { alert("Item added to Cart."); }
-                            </script>
+                            </script> --> -->
 
                     </div>
                     </span>
@@ -86,7 +84,7 @@
                         eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam
                         voluptatem, quia voluptas sit. ut labore et dolore magnam aliquam quaerat voluptatem
                     </p>
-                <div class="flex-container">
+                <div class="flex-container flex-9-grid">
 
                     <div class="flex-container-outer-1">
                         <img src="images\Vase_Dame_2048x2048.jpg" alt="item" class="">
@@ -119,30 +117,30 @@
                 </div>                           
                                 
             <h2 id="products">Our Products</h2><hr>
-                <div class="flex-container flex-grid">
-                    <div class="flex-container-row">
-                        <div class="item"> 
-                            <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
-                                <div class="flex-container">
-                                    <h3 class="product">MUNDO BOWLS</h3>
-                                    <span class="product">$48.00</span>
-                                </div>
-                                    <hr>
-                                        <p>
-                                            Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
-                                            ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.
-                                        </p>                        
-                                            <div class="flex-container">
-                                                <a href="#" class="learn-more-link">Learn More</a>
-                                                    <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add to Cart</button>
-                                                        <script>
-                                                            function home() { alert("Item added to Cart."); }
-                                                        </script>
-                                            </div>
-                        </div>
+                <div class="flex-container flex-9-grid">
+                   
+                    <div class="item item-width"> 
+                        <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
+                            <div class="product">
+                                <span>MUNDO BOWLS</span>
+                                <span class="float-right last-span">$48.00</span>
+                            </div>
+                                <hr>
+                                    <p>
+                                        Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex
+                                        ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.
+                                    </p>                        
+                                        <div class="">
+                                            <a href="#" class="learn-more-link">Learn More</a>
+                                                <button class="orange-background float-right bold-font cart-button cart-font white-text box-container" onclick="addCart()">Add to Cart</button>
+                                                    <script>
+                                                        function addCart() { alert("Item added to Cart."); }
+                                                    </script>
+                                        </div>
                     </div>
-
-                        <div class="item">
+                    
+<!-- this one -->
+                        <div class="item flex-container flex-container-column">
                             <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                             <div class="flex-container">
                                 <h3 class="product uppercase-letters">Natureza Vase</h3>
@@ -154,7 +152,7 @@
                                     ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.
                                 </p>
                         
-                            <div class="flex-container">
+                            <div class="">
                                 <a href="#" class="learn-more-link">Learn More</a>
                                 <button class="orange-background flex-self-end bold-font cart-button cart-font white-text box-container" onclick="home()">Add
                                     to Cart</button>
@@ -176,7 +174,7 @@
                                     ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.
                                 </p>
                         
-                            <div class="flex-container flex-grid">
+                            <div class="flex-container flex-9-grid">
                                 <a href="#" class="learn-more-link">Learn More</a>
                                 <button class="orange-background bold-font cart-button cart-font white-text box-container" onclick="home()">Add
                                     to Cart</button>
@@ -210,7 +208,7 @@
                 </div>
             
         </main>
-        <footer class="orange-background flex-grid">
+        <footer class="orange-background flex-container-column">
             <div class="flex-container flex-container flex-space-evenly">
                 <div class="flex-container-outer-1 icon-size">            
                     <span><a href="https://www.youtube.com"><img src="images\icons8-youtube-96.png" class="inverse-icon icon-size" alt="YouTube"></a></span>
@@ -218,7 +216,7 @@
                 <div class="flex-container-outer-1 icon-size">
                     <span><a href="https://www.facebook.com"><img src="images\icons8-facebook-96 (1).png" class="inverse-icon icon-size" alt="Facebook"></a></span>
                 </div>
-                <div class="flex-container-inner">
+                <div class="flex-container-inner position-relative">
                     <div>
                         <span class="bold-font">CARA</span>
                         <span><img src="images\icons8-pottery-96 (1).png" class="icon-size-smaller"></span>
@@ -228,11 +226,14 @@
                 <div class="flex-container-outer-2">
                     <span><a href="https://www.twitter.com"><img src="images\icons8-twitter-96.png" class="inverse-icon icon-size" alt="Twitter"></a></span>
                 </div>
-                <div class="flex-container-outer-1 icon-size">
+                <div class="flex-container-outer-2 icon-size">
                     <span><a href="https://www.instagram.com"><img src="images\icons8-instagram-96.png" class="inverse-icon icon-size" alt="Instagram"></a></span>
                 </div>
             </div>
-            <p>Exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.</p>
+            <div class="text-align-center">
+                <p>Exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit, qui.</p>
+            </div>
+            
         </footer>
     </body>
 </html>
