@@ -6,19 +6,19 @@
     box-sizing: inherit;
 }
 input{
-    width: 25rem;
-    margin-bottom: 1rem;
+    width: 100rem;
+    margin-bottom: 3rem;
 }
 body {
     font-family: 'Segoe UI', sans-serif;
     color: #000;
 }
 .input-search {
-    width:12rem;
+    width:30rem;
 }
 
 .input-email {
-    height: 2rem;
+    height: 4rem;
 }
 .input-message {
     height: 10rem;
@@ -28,23 +28,27 @@ html {
     font-size: 62.5%;
 }
 hr {
-    height:3px;
+    height:.5rem;
     width:55%;
     background-color: #000;
     border:none;
     margin-top:1rem;
-    margin-bottom:2rem;
+    margin-bottom:4rem;
 }
-.banner-img {
+nav > hr{
+    width: 100%;
+}
+.banner-img  {
     height: auto;
     width: 100%;
 }
-p {
+p, a  {
     margin-bottom: 3rem;
+    font-size: 2em;
 }
 main img {
-    height:30rem;
-    width:30rem;    
+    height:50rem;
+    width: 50rem;    
 }
 main {
     margin-left: 10rem;
@@ -54,15 +58,15 @@ h1, h2, h3, h4, button, product, .learn-more-link, .uppercase-letters {
     text-transform: uppercase;
 }
 h2 {
-    font-size: 2rem;
-    margin-top:2rem;
+    font-size: 4rem;
+    margin-top: 10rem;
 }
-nav hr {
+/* nav hr {
     width:100%;
-}
+} */
 /* Add a black background color to the top navigation */
 .item-width{
-    width: 31rem;
+    width: 50rem;
 }
 .topnav {
     overflow: hidden;
@@ -78,9 +82,10 @@ nav hr {
 .topnav a {
     float: left;
     text-align: center;
-    padding: 14px 16px;
+    padding-right: 6rem;
     text-decoration: none;
-    /* font-size: 17px; */
+    font-size: 2rem;
+    color: #000;
 }
 
 /* Change the color of links on hover */
@@ -109,15 +114,15 @@ nav hr {
     text-align: center;
 }
 .box-container {
-    width:3rem;
-    height:3rem;
+    width: 6rem;
+    height: 4rem;
 }
 .cart-font{
     font-size: 1rem;
 }
 .cart-button{
-    width: 8rem;
-    height:1.5rem;
+    width: 16rem;
+    height: 4rem;
     border-style: none;
     padding: .5rem;
 }
@@ -134,7 +139,34 @@ nav hr {
 }
 .flex-container-inner, .flex-container-column {
     flex-direction: column;
+    width: 700px;
+    align-self: start;
+    object-position: left;
 }
+.flex-3-grid {
+    display:grid;
+    grid-template-areas:
+            "l m r";
+    justify-content: top;
+    justify-items: top;
+    align-items: center;
+    gap: 6rem;
+}
+.about-paragraph {
+    display: flex;
+    flex-direction: row;
+    /* margin-bottom: 50px; */
+    align-items: top;
+    align-content: center;
+}
+
+/*lower */
+.outer-image {
+    align-self: flex-end;
+}
+
+
+
 .flex-9-grid {
     display:grid;
     grid-template-areas:
@@ -165,12 +197,12 @@ nav hr {
     order: 99;
 }
 
-.image-background-fill-space {
+/* .image-background-fill-space {
     width: 100%;
     height: 100%;
-}
+} */
 .product {
-    font-size:1.75rem;
+    font-size: 3rem;
     font-weight: lighter;
     margin-top: 1rem;
     margin-bottom: -.5rem;
@@ -178,7 +210,7 @@ nav hr {
 .item {}
 
 .item-image{
-    border: .25rem solid black;
+    border: .5rem solid black;
 }
 
 .flip-horizontally {
@@ -192,53 +224,61 @@ nav hr {
     /* text-align: center; */
     /* color: white; */
 }
-.upper-left {
+.overlay-text{
     position: absolute;
-    top: 4rem;
-    left: 1.5rem;
-    font-size: 2rem;
+    font-size: 4rem;
+}
+.upper-left {
+    top: 14rem;
+    left: 8rem;
 }
 
 .lower-right {
-    position: absolute;
-    bottom: 4rem;
-    right: 2rem;
-    font-size: 2rem;
+    bottom: 14rem;
+    right: 18rem;
 }
 .skip-link{
     color: white;
 
 }
 .black-background {
-    background: color #000;
+    background-color: #000;
 }
 
 .gray-background {
-    background: color #707070;
+    background-color: #707070;
 }
 
 .orange-background {
     background-color: #BF7631;
 }
 
-.learn-more-link {
+.orange-text {
     color: #BF7631;
 }
 
 .white-text {
     color: white;
 }
+.text-size{
+    font-size: 
+}
 
 .icon-size {
-    width: 3rem;
-    height: 3rem;
+    width: 5rem;
+    height: 5rem;
 }
 
 .icon-size-smaller {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 4.5rem;
+    height: 4.5rem;
+    vertical-align: bottom;
 }
 
 .bold-font {
     font-weight: bold;
+    font-size: 2rem;
+}
+.text-center {
+    text-align: center;
 }
