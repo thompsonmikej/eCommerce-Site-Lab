@@ -14,7 +14,9 @@ body {
     color: #000;
 }
 .input-search {
-    width:30rem;
+    height: 4rem;
+    width: 40rem;
+    margin-right: 20rem;
 }
 .input-text{
     font-size:2rem;
@@ -25,8 +27,17 @@ body {
 .input-message {
     height: 20rem;
 }
-
-
+.margin-left{
+    margin-left: 12rem;
+}
+.float-left{
+    float: left;
+}
+.icon-overlay{
+    width: 2rem;
+    height: 2rem;
+    position: relative;
+}
 html {
     box-sizing: border-box;
     font-size: 62.5%;
@@ -40,13 +51,25 @@ hr {
     margin-bottom:6rem;
 }
 nav > hr{
-    width: 100%;
+    width: 99%;
     margin-top: -4rem;
+    margin-left: 0.5%
 }
 .banner-img  {
     height: auto;
     width: 100%;
 }
+.justify-center{
+    justify-content: center;
+}
+.isolate-element{
+    margin-right: 6rem;
+    margin-left: 6rem;
+}
+.box-height{
+    height: 6rem;
+}
+
 p, a  {
     margin-bottom: 3rem;
     font-size: 2em;
@@ -183,12 +206,9 @@ h2 {
     align-content: center;
 }
 
-/*lower */
 .outer-image {
     align-self: flex-end;
 }
-
-
 
 .flex-9-grid {
     display:grid;
@@ -220,17 +240,12 @@ h2 {
     order: 99;
 }
 
-/* .image-background-fill-space {
-    width: 100%;
-    height: 100%;
-} */
 .product {
     font-size: 3rem;
     font-weight: lighter;
     margin-top: 1rem;
     margin-bottom: -.5rem;
 }
-
 
 .item-image{
     border: .5rem solid black;
@@ -268,10 +283,6 @@ h2 {
     background-color: #000;
 }
 
-.gray-background {
-    background-color: #707070;
-}
-
 .orange-background {
     background-color: #BF7631;
 }
@@ -279,7 +290,10 @@ h2 {
 .orange-text {
     color: #BF7631;
 }
-
+.logo-isolation-space{
+    margin-left: 6rem;
+    margin-right: 6rem;
+}
 .white-text {
     color: white;
 }
