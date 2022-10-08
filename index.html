@@ -32,32 +32,24 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex-container-inner text-center position-absolute">
-                    <span class="bold-font uppercase-letters">cara</span>
+                <div class="flex-container-column logo-text bold-font text-center position-absolute uppercase-letters">
+                    <span class=" ">cara</span>
                     <span><img src="images\icons8-pottery-96.png" class="icon-size-smaller "></span>
-                    <span class="bold-font uppercase-letters">CARA</span>
+                    <span class="">Cara</span>
                 </div>
                 <div class="flex-container-outer-2">
                 <div class="search-container">
-                    <div>
-                        <input type="text" placeholder="Search.." class="input-search" name="search">
-                            <button type="submit" class="no-border" onclick="search()">                
-                                <span><img src="images\1200px-Google_Magnifying_Glass.svg.png" alt="" class="icon-size-smaller"></span>
-                            </button>
-                                <!-- <script>
-                                    function search() { alert("Your search for ... yielded 123 results."); }
-                                </script>
-                            <button class="price-float no-border" onclick="viewCart()">Cart (0)</button>
-                                <script>
-                                    function viewCart() { alert("Your search for ... yielded 123 results."); }
-                                </script> -->
-
-                            <button type="submit" class="float-right b-text no-border box-container" onclick="cartItem()"></button>Cart (0)</button>
-                            <script>
-                                function cartItem() { alert("You have _ items in your Cart."); }
-                            </script>
-
+                    <div class="container">
+                        <input type="text" class="input-search" name="search">
+                        <span><img src="images\1200px-Google_Magnifying_Glass.svg.png" alt="" class="icon-size-smaller"></span>
                     </div>
+                    <div></div>   
+                         <span>Cart (0)</span>
+                    </div>
+                        <!-- <button type="submit" class="float-right b-text no-border box-container" name="Cart (0)" onclick="cartItem()"></button></button>
+                        <script>
+                            function cartItem() { alert("You have 0 items in your Cart."); }
+                        </script> -->
                     </span>
                 </div>  
                 </div>
@@ -78,53 +70,55 @@
 
             <h2 id="about">About Us</h2>
                 <hr>
-                <div class="about-paragraph >
-                    <p>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
-                        eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam
-                        voluptatem, quia voluptas sit. ut labore et dolore magnam aliquam quaerat voluptatem
-                    </p>
-
-                <div class="flex-container-outer-2 outer-image">
-                    <img src="images\Cylinder_unglazed3_2048x2048.jpg" alt="item" class="flip-horizontally">
-                </div>
-                </div>
+                <div class="flex-container flex-2-grid"><!-- left and right, contains about, column, and pic on left, right pic on right-->
+                    <div> <!--contains about, the picture, and the column-->
+                        <div class="about-paragraph"><!-- A-->
+                            <p>
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
+                                eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam
+                                voluptatem, quia voluptas sit. ut labore et dolore magnam aliquam quaerat voluptatem
+                            </p>
+                        </div>    
+                            <div class="container-row"> <!--B-- the inner column and left pic-->
+                                <div class="flex-container-row">
+                                    <div class="flex-container-outer-1">
+                                        <img src="images\Vase_Dame_2048x2048.jpg" alt="item" class="">
+                                    </div>
                     
-                <div class="flex-container flex-3-grid">
-
-                    <div class="flex-container-outer-1">
-                        <img src="images\Vase_Dame_2048x2048.jpg" alt="item" class="">
+                                        <div class="flex-container-column ">
+                                            <div class="flex-container-inner-1">
+                                                <p>
+                                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
+                                                    eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam
+                                                    voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione
+                                                    voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci
+                                                    velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
+                                                </p>
+                                            </div>
+                                            <div class="flex-container-inner-2">
+                                                <p>
+                                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
+                                                    consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur,
+                                                    vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos
+                                                    ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint,
+                                                    obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et
+                                                    dolorum fuga.
+                                                </p>            
+                                            </div>
+                                        </div>      
+                                </div>
+                            </div>
                     </div>
-                        <div class="flex-container-inner ">
-                            <div class="flex-container-inner-1">
-                                <p>
-                                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam
-                                    eaque ipsa, quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt, explicabo. Nemo enim ipsam
-                                    voluptatem, quia voluptas sit, aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos, qui ratione
-                                    voluptatem sequi nesciunt, neque porro quisquam est, qui dolorem ipsum, quia dolor sit, amet, consectetur, adipisci
-                                    velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem
-                                </p>
-                            </div>
-                            <div class="flex-container-inner-2">
-                                <p>
-                                    Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi
-                                    consequatur? Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse, quam nihil molestiae consequatur,
-                                    vel illum, qui dolorem eum fugiat, quo voluptas nulla pariatur? [33] At vero eos et accusamus et iusto odio dignissimos
-                                    ducimus, qui blanditiis praesentium voluptatum deleniti atque corrupti, quos dolores et quas molestias excepturi sint,
-                                    obcaecati cupiditate non provident, similique sunt in culpa, qui officia deserunt mollitia animi, id est laborum et
-                                    dolorum fuga.
-                                </p>            
-                            </div>
+                        <div class="flex-container-outer-2 image-resize outer-image"> <!--C-- the right pic-->
+                            <img src="images\Cylinder_unglazed3_2048x2048.jpg" alt="item" class="flip-horizontally">
                         </div>
-
-
-                </div>                           
+                </div>                               
                                 
             <h2 id="products">Our Products</h2>
             <hr>
             <div class="flex-container flex-9-grid">
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -145,7 +139,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -166,7 +160,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -187,7 +181,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -208,7 +202,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -229,7 +223,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -250,7 +244,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -272,7 +266,7 @@
                 </div>
             
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -293,7 +287,7 @@
                     </div>
                 </div>
             
-                <div class="item item-width">
+                <div class="item-width">
                     <a href="#"><img src="images\tom-crew-7HuTGlUfQSo-unsplash.jpg" alt="item" class="item-image"></a>
                     <div class="product uppercase-letters">
                         <span>Mundo Bowls</span>
@@ -323,7 +317,7 @@
 
     
             <h2 id="contact">Contact Us</h2><hr>
-                <div class="flex-container flex-container-column input uppercase-letters">
+                <div class="flex-container input-text flex-container-column input uppercase-letters">
                     <div class="flex-container-inner-1 ">
                         <form>
                             <label for="email">email</label><br>
@@ -347,7 +341,7 @@
                 <div class="flex-container-outer-1 icon-size">
                     <span><a href="https://www.facebook.com"><img src="images\icons8-facebook-96 (1).png" class="inverse-icon icon-size" alt="Facebook"></a></span>
                 </div>
-                <div class="flex-container-inner text-align position-relative">
+                <div class="flex-container-column text-align position-relative">
                     <div>
                         <span class="bold-font">CARA</span>
                         <span><img src="images\icons8-pottery-96 (1).png" class="icon-size-smaller"></span>
