@@ -159,6 +159,26 @@ h2 {
     align-self: start;
     object-position: left;
 }
+.container-4{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: flex-start;
+    flex-direction: row-reverse;
+}
+.float-right{
+    float: right;
+}
+.margin-left{
+    margin-left: 30rem;
+}
+.margin-right{
+    margin-right: 30rem;
+}
+.position-absolute{
+    position: absolute;
+}
 .flex-space-between {
     justify-content: space-between;
 }
