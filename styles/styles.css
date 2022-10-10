@@ -60,10 +60,6 @@ nav > hr{
 .justify-center{
     justify-content: center;
 }
-/* .isolate-element{
-    margin-right: 6rem;
-    margin-left: 6rem;
-} */
 .box-height{
     height: 6rem;
 }
@@ -233,7 +229,6 @@ a:hover {
             "l m r"
             "mid-l mid-m mid-r"
             "bot-l bot-m bot-r";
-    
     justify-content: center;
     justify-items: center;
     align-items: center;
@@ -265,7 +260,7 @@ a:hover {
 }
 
 .item-image{
-    border: .5rem solid black;
+    border: .5rem solid #000;
 }
 
 .flip-horizontally {
@@ -294,7 +289,6 @@ a:hover {
 }
 .skip-link{
     color: white;
-
 }
 .black-background {
     background-color: #000;
@@ -326,7 +320,6 @@ a:hover {
 .icon-size-smaller {
     width: 3rem;
     height: 3rem;
-
 }
 
 .bold-font {
@@ -384,30 +377,23 @@ main img {
     width: 30rem;
 }
 
-
 .about-paragraph {
     width: 80rem;
 }
 
-
 .margin-left {
     margin-left: 5rem;
 }
-
 .float-left {
     float: left;
 }
 
-
-
 .margin-right {
-    margin-right:    10rem;
+    margin-right: 10rem;
 }
-
 .float-right {
     float: right;
 }
-
 .upper-left {
     top: 6rem;
     left: 6rem;
@@ -450,7 +436,6 @@ hr {
     list-style-type: none;
     margin: 0;
     padding: 0;
-        /* position: fixed; */
     top: 0;
     width: 100%;
 }
