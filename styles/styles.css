@@ -116,10 +116,9 @@ h2 {
 .topnav a:hover {
     background-color:#BF7631;
     color: white;
-} */
+} 
 
-/* Add a color to the active/current link */
-.topnav a.active {
+a:hover {
     background-color: #000;
     color: white;
 }
