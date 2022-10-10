@@ -6,7 +6,7 @@
     box-sizing: inherit;
 }
 input{
-    width: 100rem;
+    width: 60rem;
     margin-bottom: 3rem;
 }
 body {
@@ -24,9 +24,7 @@ body {
 .input-email {
     height: 5rem;
 }
-.input-message {
-    height: 20rem;
-}
+
 .margin-left{
     margin-left: 12rem;
 }
@@ -341,4 +339,133 @@ h2 {
 }
 .logo-text {
     font-size: 4rem;
+}
+.input-message {
+    height: 20rem;
+}
+
+input {
+    width: 60rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+hr {
+    height: 0.5rem;
+    width: 55%;
+    background-color: #000;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+    margin-top: 10rem;
+}
+
+.bold-font {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.item-width {
+    width: 30rem;
+}
+
+.product {
+    font-size: 2rem;
+    font-weight: lighter;
+    margin-top: 3rem;
+}
+
+main img {
+    height: 30rem;
+    width: 30rem;
+}
+
+
+.about-paragraph {
+    width: 80rem;
+}
+
+
+.margin-left {
+    margin-left: 5rem;
+}
+
+.float-left {
+    float: left;
+}
+
+
+
+.margin-right {
+    margin-right:    10rem;
+}
+
+.float-right {
+    float: right;
+}
+
+.upper-left {
+    top: 6rem;
+    left: 6rem;
+}
+
+.overlay-text {
+    position: absolute;
+    font-size: 3rem;
+}
+
+.lower-right {
+    bottom: 6rem;
+    right: 6rem;
+}
+
+hr {
+    height:  0.5rem;
+    width: 75%;
+    background-color: #000;
+    border: none;
+    margin-top:        1rem;
+    margin-bottom:        3rem;
+}
+
+.topnav a {
+    float: left;
+    text-align: center;
+    padding-right:  3rem;
+    text-decoration: none;
+    font-size: 1.25rem;
+    color: #000;
+}
+
+.margin-left {
+    margin-left: 1rem;
+}
+
+.topnav {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+        /* position: fixed; */
+    top: 0;
+    width: 100%;
+}
+
+element.style {
+     margin-bottom:  5rem;
+}
+
+.input-text {
+    font-size: 2rem;
+}
+
+.input-search {
+    height:        3rem;
+    width:        21rem;
+    margin-right:        10rem;
 }
