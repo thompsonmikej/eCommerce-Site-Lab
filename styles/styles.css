@@ -46,11 +46,11 @@ hr {
     background-color: #000;
     border:none;
     margin-top:2rem;
-    margin-bottom:6rem;
+    margin-bottom:5rem;
 }
 nav > hr{
     width: 99%;
-    margin-top: -4rem;
+    margin-top: -3rem;
     margin-left: 0.5%
 }
 .banner-img  {
@@ -60,16 +60,16 @@ nav > hr{
 .justify-center{
     justify-content: center;
 }
-.isolate-element{
+/* .isolate-element{
     margin-right: 6rem;
     margin-left: 6rem;
-}
+} */
 .box-height{
     height: 6rem;
 }
 
 p, a  {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     font-size: 2em;
 }
 main img {
@@ -97,7 +97,6 @@ h2 {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* position: fixed; */
     top: 0;
     width: 100%;
 }
@@ -110,6 +109,7 @@ h2 {
     text-decoration: none;
     font-size: 2rem;
     color: #000;
+    margin-left: 1rem;
 }
 
 /* Change the color of links on hover */
@@ -308,7 +308,7 @@ h2 {
 .orange-text {
     color: #BF7631;
 }
-.logo-isolation-space{
+.margin-r-l {
     margin-left: 6rem;
     margin-right: 6rem;
 }
@@ -320,14 +320,14 @@ h2 {
 }
 
 .icon-size {
-    width: 5rem;
-    height: 5rem;
+    width: 6rem;
+    height: 6rem;
 }
 
 .icon-size-smaller {
-    width: 4.5rem;
-    height: 4.5rem;
-    vertical-align: bottom;
+    width: 3rem;
+    height: 3rem;
+
 }
 
 .bold-font {
@@ -467,5 +467,5 @@ element.style {
 .input-search {
     height:        3rem;
     width:        21rem;
-    margin-right:        10rem;
+    margin-right: 1rem;
 }
