@@ -37,6 +37,7 @@ A responsive single-page e-commerce website inspired by the Cara Cara brand. Thi
 
 ## Usage
 - **Live Page:** Open `index.html` to interact with the site in your browser
+![eCommerce site_ cara cara](https://github.com/user-attachments/assets/15308630-aa55-4eda-b0e8-c9d3ea7f68a1)
 
 ---
 
